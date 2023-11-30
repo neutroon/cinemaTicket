@@ -10,7 +10,8 @@ import { UsersComponent } from './components/users/users.component';
 import { DeviderComponent } from './components/divider/divider.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { ChartModule } from 'primeng/chart';
-
+import { ClipboardModule } from 'ngx-clipboard';
+import { TooltipModule } from 'primeng/tooltip';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,10 @@ import { ChartModule } from 'primeng/chart';
     BrowserModule,
     AppRoutingModule,
     NgApexchartsModule,
-    ChartModule
+    ChartModule,
+    ClipboardModule,
+    TooltipModule,
+
 
   ],
   providers: [],
