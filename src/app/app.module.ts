@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TicketComponent } from './components/ticket/ticket.component';
-import { ChartComponent } from './components/chart/chart.component';
+import { CharttComponent } from './components/chart/chart.component';
 import { UsersComponent } from './components/users/users.component';
 import { DeviderComponent } from './components/divider/divider.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { ChartModule } from 'primeng/chart';
 
 
 @NgModule({
@@ -15,15 +17,16 @@ import { DeviderComponent } from './components/divider/divider.component';
     AppComponent,
     HeaderComponent,
     TicketComponent,
-    ChartComponent,
+    CharttComponent,
     UsersComponent,
     DeviderComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
-
+    NgApexchartsModule,
+    ChartModule
 
   ],
   providers: [],

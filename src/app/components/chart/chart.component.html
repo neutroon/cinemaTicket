@@ -1,3 +1,19 @@
-<div>
+<div class="text-end ps-4 pe-4">
+
+  <!-- <button class="position-absolute top-0 start-50 translate-middle-X" (click)="changeChartLibrary(apex)">change chart library</button>
+
+
+<div #apex>
+  <apx-chart class="text-end"
+  [series]="ApexChartOptions.series"
+  [chart]="ApexChartOptions.chart"
+  [xaxis]="ApexChartOptions.xaxis"
+  [title]="ApexChartOptions.title"
+  ></apx-chart>
+</div> -->
+
+<p-chart height="264" type="line" [data]="basicData" [options]="config.options"></p-chart>
+
+
 
 </div>
