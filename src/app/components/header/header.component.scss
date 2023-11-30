@@ -1,0 +1,26 @@
+div {
+  span:nth-child(1) {
+    font-weight: 500;
+
+    span {
+      display: inline-block;
+      $bg-arr-size: 2rem;
+      background-color: #e7eaed;
+      width: $bg-arr-size;
+      height: $bg-arr-size;
+      border-radius: 0.5rem;
+    }
+  }
+
+  span:nth-child(2) {
+    background-color: #F9F9F9;
+    width: 4.875rem;
+    height: 2.125rem;
+    border: #E9EAEA solid 1px;
+    border-radius: .25rem;
+    span {
+      color: #8a74f9;
+
+    }
+  }
+}

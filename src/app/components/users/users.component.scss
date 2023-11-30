@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@600&display=swap");
+$large-font: 0.82994rem;
+$medium-font: 0.72619rem;
+$small-font: 0.62244rem;
+
+.ticketsHeader {
+  // width: 100%;
+
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-bottom: 2px solid #f3f3f5;
+  padding: 1px;
+  background: #fff;
+
+  color: #abaab1;
+  font-size: $large-font;
+  white-space: nowrap;
+  line-height: 1.45238rem; /* 175% */
+
+  & > .row {
+    position: relative;
+    margin: 0.2rem;
+    border-radius: 0.375rem;
+    background: var(--icon-color-icon-two, #e3e4e94f);
+    border-bottom: #f3f3f5 solid 1px;
+  }
+}
+
+.ticket {
+  background: #fff;
+  font-size: $large-font;
+  white-space: nowrap;
+  border-bottom: 1px solid #f3f3f5;
+
+  p {
+    margin: 0;
+  }
+
+  .phone-num {
+    font-size: $small-font;
+    color: #92a1ad;
+    font-size: 0.62244rem;
+    line-height: 1.24488rem; /* 200% */
+  }
+  figure {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  .ticket-details {
+    display: flex;
+    width: 1.97919rem;
+    height: 1.97919rem;
+    padding: 0.70094rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.49481rem;
+    background: rgba(138, 116, 249, 0.1);
+    svg {
+      width: 0.9375rem;
+      height: 0.9375rem;
+      flex-shrink: 0;
+    }
+  }
+
+  .TicketInfo{
+    color: var(--Black, #000);
+    text-align: right;
+    font-size: 0.72919rem;
+    line-height: 150%; /* 1.09375rem */
+
+  & :nth-child(2){
+    color: rgba(0, 0, 0, 0.40);
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-size: 0.625rem;
+    font-weight: 400;
+  }
+}
+  & > .row {
+    margin: 0 0.2rem;
+  }
+}
+
+.ticketsFooter {
+  background: #fff;
+  font-size: $small-font;
+
+  .pagination {
+    font-size: $large-font;
+
+    .page-link {
+      border-radius: 0.28125rem;
+      border: unset;
+      color: var(--gray-gray-600, #7e8299);
+      text-align: center;
+      font-family: "Inter", sans-serif;
+
+      font-size: 0.84375rem;
+      font-weight: 600;
+      line-height: 0.84375rem; /* 100% */
+      letter-spacing: -0.00844rem;
+    }
+
+    .page-link:focus {
+      box-shadow: unset;
+      background-color: #8a74f9;
+      color: #fff;
+    }
+  }
+
+  .form-select {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+
+    width: 3.28125rem;
+    height: 1.96875rem;
+    padding: 0.375rem 0.70313rem;
+    border-radius: 0.375rem;
+    border: 0.75px solid #ddd;
+    color: #333;
+    font-size: $small-font;
+    font-weight: 500;
+  }
+}
