@@ -60,3 +60,12 @@ button {
   font-style: normal;
   font-weight: 400;
 }
+
+@media screen and (max-width: 360px) {
+  .searchContainer{
+    input[type="search"]{
+      width: 200px ;
+    }
+  }
+}
+

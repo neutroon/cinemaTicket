@@ -12,6 +12,8 @@ import { NgApexchartsModule } from 'ng-apexcharts';
 import { ChartModule } from 'primeng/chart';
 import { ClipboardModule } from 'ngx-clipboard';
 import { TooltipModule } from 'primeng/tooltip';
+import { MyTooltipDirective } from './shared/my-tooltip.directive';
+import { CutTextPipe } from './shared/cut-text.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { TooltipModule } from 'primeng/tooltip';
     TicketComponent,
     CharttComponent,
     UsersComponent,
-    DeviderComponent
+    DeviderComponent,
+    MyTooltipDirective,
+    CutTextPipe
 
   ],
   imports: [

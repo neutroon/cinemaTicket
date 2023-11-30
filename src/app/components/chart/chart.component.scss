@@ -21,3 +21,10 @@ font-size: 12.112px;
 line-height: 140%; /* 16.956px */
   }
 }
+
+
+@media screen and (max-width: 375px) {
+  select{
+    display: none;
+  }
+}

@@ -3,9 +3,17 @@ $large-font: 0.82994rem;
 $medium-font: 0.72619rem;
 $small-font: 0.62244rem;
 
+
+
+
+
+.scroll>.row{
+min-width: 960px;
+
+}
+
 .ticketsHeader {
   // width: 100%;
-
   border-radius: 0.5rem 0.5rem 0 0;
   border-bottom: 2px solid #f3f3f5;
   padding: 1px;
@@ -121,5 +129,15 @@ $small-font: 0.62244rem;
     color: #333;
     font-size: $small-font;
     font-weight: 500;
+  }
+}
+
+
+
+@media screen and (max-width: 901px ) {
+  .scroll{
+    // width: fit-content;
+  overflow-x: auto;
+    overflow-y: hidden;
   }
 }
