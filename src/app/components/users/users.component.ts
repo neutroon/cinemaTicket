@@ -59,7 +59,5 @@ export class UsersComponent {
         size: '9mb . PDF',
       },
     },
-
-
   ];
 }

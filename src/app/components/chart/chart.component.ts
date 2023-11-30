@@ -1,13 +1,10 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 @Component({
   selector: 'app-chart',
   templateUrl: './chart.component.html',
   styleUrls: ['./chart.component.scss'],
 })
 export class CharttComponent {
-
-
-
   basicData = {
     labels: [
       'ديسمبر',
@@ -46,29 +43,24 @@ export class CharttComponent {
     ],
   };
 
-
   config = {
     type: 'line',
     data: 'data',
-
     options: {
-
       scales: {
         y: {
           grid: {
             drawTicks: false,
             circular: false,
-            offset: false
+            offset: false,
           },
           ticks: {
             display: false,
-
-          }
+          },
         },
         x: {
           grid: {
             display: false,
-            // drawOnChartArea: false
           },
           ticks: {
             color: '#9291A5',
@@ -76,9 +68,9 @@ export class CharttComponent {
             font: {
               family: 'Neo Sans Arabic',
               size: 12,
-              weight: 500
-            }
-          }
+              weight: 500,
+            },
+          },
         },
       },
 
@@ -92,17 +84,15 @@ export class CharttComponent {
         },
       },
       plugins: {
-
         tooltip: {
           titleFont: {
             family: 'Neo Sans Arabic',
             size: 12.112,
-            weight: 400
+            weight: 400,
           },
           titleAlign: 'center',
           usePointStyle: true,
-          // rtl: false
-          xAlign: 'right'
+          xAlign: 'right',
         },
 
         legend: {
@@ -123,7 +113,7 @@ export class CharttComponent {
         subtitle: {
           align: 'end',
           padding: {
-            bottom: 15
+            bottom: 15,
           },
           font: {
             family: 'Neo Sans Arabic',
@@ -146,12 +136,9 @@ export class CharttComponent {
         },
       },
 
-
       interaction: {
         intersect: false,
-        mode: 'x'
-
-
+        mode: 'x',
       },
     },
   };

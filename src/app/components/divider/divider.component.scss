@@ -5,22 +5,20 @@
     padding-right: 10%;
     padding-left: 5%;
 
-
     &::placeholder {
       color: rgba(146, 161, 173, 0.4);
       font-size: 0.625rem;
       font-weight: 400;
     }
 
-    &:focus{
+    &:focus {
       outline: unset;
     }
-
 
     width: 17.3125rem;
     height: 2.25rem;
   }
-  svg{
+  svg {
     position: absolute;
     right: 2%;
     top: 50%;
@@ -62,10 +60,9 @@ button {
 }
 
 @media screen and (max-width: 360px) {
-  .searchContainer{
-    input[type="search"]{
-      width: 200px ;
+  .searchContainer {
+    input[type="search"] {
+      width: 200px;
     }
   }
 }
-

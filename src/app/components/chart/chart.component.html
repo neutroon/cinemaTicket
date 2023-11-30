@@ -1,11 +1,18 @@
 <div class="chart text-end ps-3 pe-3 position-relative">
-
-  <select class="form-select position-absolute start-0 top-0 ms-4 z-2 mt-3" aria-label="Default select example">
+  <select
+    class="form-select position-absolute start-0 top-0 ms-4 z-2 mt-3"
+    aria-label="Default select example"
+  >
     <option selected>سنويا</option>
     <option value="1">سنويا</option>
     <option value="2">سنويا</option>
     <option value="3">سنويا</option>
   </select>
 
-<p-chart height="264" type="line" [data]="basicData" [options]="config.options"></p-chart>
+  <p-chart
+    height="264"
+    type="line"
+    [data]="basicData"
+    [options]="config.options"
+  ></p-chart>
 </div>

@@ -3,17 +3,11 @@ $large-font: 0.82994rem;
 $medium-font: 0.72619rem;
 $small-font: 0.62244rem;
 
-
-
-
-
-.scroll>.row{
-min-width: 960px;
-
+.scroll > .row {
+  min-width: 960px;
 }
 
 .ticketsHeader {
-  // width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
   border-bottom: 2px solid #f3f3f5;
   padding: 1px;
@@ -47,7 +41,7 @@ min-width: 960px;
     font-size: $small-font;
     color: #92a1ad;
     font-size: 0.62244rem;
-    line-height: 1.24488rem; /* 200% */
+    line-height: 1.24488rem;
   }
   figure {
     width: 1.875rem;
@@ -71,20 +65,20 @@ min-width: 960px;
     }
   }
 
-  .TicketInfo{
+  .TicketInfo {
     color: var(--Black, #000);
     text-align: right;
     font-size: 0.72919rem;
-    line-height: 150%; /* 1.09375rem */
+    line-height: 150%;
 
-  & :nth-child(2){
-    color: rgba(0, 0, 0, 0.40);
-    text-align: right;
-    font-family: "Inter", sans-serif;
-    font-size: 0.625rem;
-    font-weight: 400;
+    & :nth-child(2) {
+      color: rgba(0, 0, 0, 0.4);
+      text-align: right;
+      font-family: "Inter", sans-serif;
+      font-size: 0.625rem;
+      font-weight: 400;
+    }
   }
-}
   & > .row {
     margin: 0 0.2rem;
   }
@@ -132,12 +126,9 @@ min-width: 960px;
   }
 }
 
-
-
-@media screen and (max-width: 901px ) {
-  .scroll{
-    // width: fit-content;
-  overflow-x: auto;
+@media screen and (max-width: 901px) {
+  .scroll {
+    overflow-x: auto;
     overflow-y: hidden;
   }
 }

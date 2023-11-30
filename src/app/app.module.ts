@@ -24,8 +24,7 @@ import { CutTextPipe } from './shared/cut-text.pipe';
     UsersComponent,
     DeviderComponent,
     MyTooltipDirective,
-    CutTextPipe
-
+    CutTextPipe,
   ],
   imports: [
     BrowserModule,
@@ -34,10 +33,8 @@ import { CutTextPipe } from './shared/cut-text.pipe';
     ChartModule,
     ClipboardModule,
     TooltipModule,
-
-
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
